@@ -1,0 +1,8 @@
+# ninja log v5
+11	619	7299902086282487	CMakeFiles/Oasencrawler.dir/Game/Tile.cpp.obj	65f78ed4c426b2b
+23	79	7298646156814409	CMakeFiles/Oasencrawler.dir/Game/Player.cpp.obj	36e50931598ed72e
+4	341	7298637990514581	CMakeFiles/Oasencrawler.dir/Game/GameBoard.cpp.obj	b2817544dc92d299
+14	361	7298646159646305	CMakeFiles/Oasencrawler.dir/main.cpp.obj	6891c51aa5ae4080
+620	738	7299902087443360	Oasencrawler.exe	6c28d73fb78708e6
+19	79	7298646156824412	CMakeFiles/Oasencrawler.dir/Game/Pawn.cpp.obj	92c68914506a3e9e
+1	569	7299903410300061	build.ninja	f0297b6c8dcccffd
