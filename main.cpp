@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Game/GameBoard.h"
-#include "Game/Tile.h"
+#include "Game/Oasencrawler.h"
+#include "Game/Scene/Scene.h"
 
 char getUserInput(const char* msg)
 {
@@ -16,14 +16,8 @@ int main()
 {
     srand(static_cast<unsigned>(time(nullptr)));
 
-    GameBoard board{5};
-    board.printBoard();
-
-    while(1)
-    {
-        getUserInput("next move:");
-
-    }
+    Oasencrawler oasencrawler = Oasencrawler();
+    oasencrawler.Run();
 
     return 0;
 }
