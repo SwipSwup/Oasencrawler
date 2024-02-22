@@ -16,4 +16,5 @@ add_executable(Oasencrawler main.cpp
         Game/Oasencrawler.h
         Game/Utility/Vector2D.cpp
         Game/Utility/Vector2D.h
+        Game/Utility/Colors.h
 )

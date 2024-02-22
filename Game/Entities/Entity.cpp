@@ -4,6 +4,8 @@
 
 #include "Entity.h"
 
+#include <iostream>
+
 Entity::Entity()
 {
     position = Vector2D();
@@ -11,7 +13,7 @@ Entity::Entity()
 
 void Entity::Move(Vector2D direction)
 {
-
+    position += direction;
 }
 
 Vector2D Entity::GetPosition() const

@@ -2,6 +2,7 @@
 
 #include "Game/Oasencrawler.h"
 #include "Game/Scene/Scene.h"
+#include "Game/Scene/Tile.h"
 
 char getUserInput(const char* msg)
 {
@@ -21,4 +22,3 @@ int main()
 
     return 0;
 }
-

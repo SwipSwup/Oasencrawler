@@ -53,7 +53,7 @@ void Scene::GenerateBoard()
     {
         for (int x = 0; x < boardSize; ++x)
         {
-            Tile tile = Tile::GetRandomTile();
+            Tile tile = Tile();
             if(tile.GetType() == RELIC_TILE)
                 relicCount++;
 

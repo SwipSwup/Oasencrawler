@@ -11,7 +11,7 @@ char const Tile::tileChar[TILE_COUNT] = {'e', 'd', 'f', 'r'};
 
 Tile::Tile()
 {
-    Init(EMPTY_TILE);
+    Init(GetRandomTile());
 }
 
 Tile::Tile(const tileType type)
@@ -19,7 +19,7 @@ Tile::Tile(const tileType type)
     Init(type);
 }
 
-Tile Tile::GetRandomTile()
+tileType Tile::GetRandomTile()
 {
     double randomValue = static_cast<double>(rand()) / RAND_MAX;
 
@@ -27,13 +27,13 @@ Tile Tile::GetRandomTile()
     {
         if (randomValue <= tilePropabilties[i])
         {
-            return {static_cast<tileType>(i)};
+            return static_cast<tileType>(i);
         }
 
         randomValue -= tilePropabilties[i];
     }
 
-    return {EMPTY_TILE};
+    return EMPTY_TILE;
 }
 
 void Tile::Init(tileType type)

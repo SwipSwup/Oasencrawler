@@ -21,7 +21,7 @@ public:
     Tile();
     Tile(tileType type);
 
-    static Tile GetRandomTile();
+    tileType GetRandomTile();
 
 private:
     static double tilePropabilties[TILE_COUNT];

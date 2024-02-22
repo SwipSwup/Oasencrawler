@@ -55,35 +55,41 @@ build CMakeFiles/Oasencrawler.dir/main.cpp.obj: CXX_COMPILER__Oasencrawler_unsca
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir
   OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir
 
-build CMakeFiles/Oasencrawler.dir/Game/GameBoard.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/GameBoard.cpp || cmake_object_order_depends_target_Oasencrawler
-  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\GameBoard.cpp.obj.d
+build CMakeFiles/Oasencrawler.dir/Game/Scene/Scene.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Scene/Scene.cpp || cmake_object_order_depends_target_Oasencrawler
+  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Scene\Scene.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir
-  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game
+  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game\Scene
 
-build CMakeFiles/Oasencrawler.dir/Game/Tile.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Tile.cpp || cmake_object_order_depends_target_Oasencrawler
-  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Tile.cpp.obj.d
+build CMakeFiles/Oasencrawler.dir/Game/Scene/Tile.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Scene/Tile.cpp || cmake_object_order_depends_target_Oasencrawler
+  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Scene\Tile.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir
-  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game
+  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game\Scene
 
-build CMakeFiles/Oasencrawler.dir/Game/Pawn.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Pawn.cpp || cmake_object_order_depends_target_Oasencrawler
-  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Pawn.cpp.obj.d
+build CMakeFiles/Oasencrawler.dir/Game/Entities/Entity.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Entities/Entity.cpp || cmake_object_order_depends_target_Oasencrawler
+  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Entities\Entity.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir
-  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game
+  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game\Entities
 
-build CMakeFiles/Oasencrawler.dir/Game/Player.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Player.cpp || cmake_object_order_depends_target_Oasencrawler
-  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Player.cpp.obj.d
+build CMakeFiles/Oasencrawler.dir/Game/Entities/Player.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Entities/Player.cpp || cmake_object_order_depends_target_Oasencrawler
+  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Entities\Player.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir
-  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game
+  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game\Entities
 
 build CMakeFiles/Oasencrawler.dir/Game/Oasencrawler.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Oasencrawler.cpp || cmake_object_order_depends_target_Oasencrawler
   DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Oasencrawler.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir
   OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game
+
+build CMakeFiles/Oasencrawler.dir/Game/Utility/Vector2D.cpp.obj: CXX_COMPILER__Oasencrawler_unscanned_Debug G$:/FH/Sem2/PROGR/Oasencrawler/Game/Utility/Vector2D.cpp || cmake_object_order_depends_target_Oasencrawler
+  DEP_FILE = CMakeFiles\Oasencrawler.dir\Game\Utility\Vector2D.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Oasencrawler.dir
+  OBJECT_FILE_DIR = CMakeFiles\Oasencrawler.dir\Game\Utility
 
 
 # =============================================================================
@@ -93,7 +99,7 @@ build CMakeFiles/Oasencrawler.dir/Game/Oasencrawler.cpp.obj: CXX_COMPILER__Oasen
 #############################################
 # Link the executable Oasencrawler.exe
 
-build Oasencrawler.exe: CXX_EXECUTABLE_LINKER__Oasencrawler_Debug CMakeFiles/Oasencrawler.dir/main.cpp.obj CMakeFiles/Oasencrawler.dir/Game/GameBoard.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Tile.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Pawn.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Player.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Oasencrawler.cpp.obj
+build Oasencrawler.exe: CXX_EXECUTABLE_LINKER__Oasencrawler_Debug CMakeFiles/Oasencrawler.dir/main.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Scene/Scene.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Scene/Tile.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Entities/Entity.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Entities/Player.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Oasencrawler.cpp.obj CMakeFiles/Oasencrawler.dir/Game/Utility/Vector2D.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Oasencrawler.dir

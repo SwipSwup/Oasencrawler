@@ -113,7 +113,8 @@
 				6,
 				8,
 				10,
-				12
+				12,
+				13
 			]
 		}
 	],
@@ -189,6 +190,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Game/Utility/Vector2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Game/Utility/Colors.h",
 			"sourceGroupIndex" : 1
 		}
 	],

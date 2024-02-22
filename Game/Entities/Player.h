@@ -12,6 +12,8 @@ class Player : public Entity
 public:
     Player(int health);
 
+    void DrawHud();
+
 private:
     int health;
     int relics;
